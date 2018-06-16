@@ -164,7 +164,7 @@ func calculateHash(block Block) string {
 	return hex.EncodeToString(hashed)
 }
 
-// create a new block using previous block's hash
+// create a new block previous block's hash
 func generateBlock(oldBlock Block, BPM int) Block {
 	var newBlock Block
 
